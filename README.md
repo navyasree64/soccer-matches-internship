@@ -1,48 +1,52 @@
-⚽ Soccer Matches Web App
+# ⚽ Soccer Matches Web App
+
 A modern web application displaying upcoming Premier League matches with real-time data from Football-Data.org API.
-🚀 Features
 
-Real-time Premier League match data
-Responsive design for all devices
-Professional UI with hover effects
-Error handling with fallback data
-Node.js backend API
-React.js frontend
+## 🚀 Features
+- Real-time Premier League match data
+- Responsive design for all devices
+- Professional UI with hover effects
+- Error handling with fallback data
+- Node.js backend API
+- React.js frontend
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
+- **Backend:** Node.js, Express.js
+- **Frontend:** React.js, CSS3
+- **API:** Football-Data.org
+- **Styling:** Custom CSS with animations
 
-Backend: Node.js, Express.js
-Frontend: React.js, CSS3
-API: Football-Data.org
-Styling: Custom CSS with animations
+## 🏃‍♂️ How to Run Locally
 
-📱 Live Demo
-View Live Application (If deployed)
-🏃‍♂️ How to Run Locally
-Prerequisites
+### Prerequisites
+- Node.js installed on your machine
+- npm (Node Package Manager)
 
-Node.js installed on your machine
-npm (Node Package Manager)
-
-Backend Setup
-bashcd backend
+### Backend Setup
+```bash
+cd backend
 npm install
 npm start
-Backend runs on: http://localhost:3001
-Frontend Setup
-bashcd frontend
+```
+**Backend runs on:** http://localhost:3001
+
+### Frontend Setup
+```bash
+cd frontend
 npm install
 npm start
-Frontend runs on: http://localhost:3000
+```
+**Frontend runs on:** http://localhost:3000
 
-🌐 API Information
+## 🌐 API Information
 
-API Used: Football-Data.org
-Endpoint: https://api.football-data.org/v4/competitions/PL/matches?status=SCHEDULED
-Features: Premier League upcoming matches with team names, dates, and times
-Rate Limit: Free tier with limited requests per day
+- **API Used:** Football-Data.org
+- **Endpoint:** `https://api.football-data.org/v4/competitions/PL/matches?status=SCHEDULED`
+- **Features:** Premier League upcoming matches with team names, dates, and times
+- **Rate Limit:** Free tier with limited requests per day
 
-📋 Project Structure
+## 📋 Project Structure
+```
 soccer-matches-internship/
 ├── README.md
 ├── backend/
@@ -56,72 +60,89 @@ soccer-matches-internship/
     │   └── index.html
     ├── package.json
     └── package-lock.json
-🎯 Internship Task Requirements Met
-✅ Basic web page displaying upcoming matches
-✅ Specific sport chosen (Soccer/Football - Premier League)
-✅ Data fetched from free API (Football-Data.org)
-✅ Shows team information (two teams and scheduled date/time)
-✅ Simple backend to fetch and provide API data
-✅ Frontend interface with React.js
-✅ Code shared on GitHub with proper documentation
-✅ Error handling implemented for API failures
-✅ Responsive design for mobile and desktop
-🖼️ Screenshot
-Desktop View
-![Screenshot 2025-05-29 130426](https://github.com/user-attachments/assets/f7b6a392-fff1-4c34-984d-31df79058afb)
+```
 
-🔧 Installation Guide
+## 🎯 Internship Task Requirements Met
 
-Clone the repository:
-git clone https://github.com/navyasree64/soccer-matches-internship.git
-cd soccer-matches-internship
+✅ **Basic web page** displaying upcoming matches  
+✅ **Specific sport chosen** (Soccer/Football - Premier League)  
+✅ **Data fetched from free API** (Football-Data.org)  
+✅ **Shows team information** (two teams and scheduled date/time)  
+✅ **Simple backend** to fetch and provide API data  
+✅ **Frontend interface** with React.js  
+✅ **Code shared on GitHub** with proper documentation  
+✅ **Error handling** implemented for API failures  
+✅ **Responsive design** for mobile and desktop  
 
-Install backend dependencies:
-cd backend
-npm install
+## 🖼️ Screenshot
 
-Install frontend dependencies:
-cd ../frontend
-npm install
+### Desktop View
+![Screenshot 2025-05-29 130426](https://github.com/user-attachments/assets/c8a788f8-d4ad-4e4e-a9bc-5aa621485ea9)
 
-Start the backend server:
-cd ../backend
-npm start
+## 🔧 Installation Guide
 
-Start the frontend (in new terminal):
-cd frontend
-npm start
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/navyasree64/soccer-matches-internship.git
+   cd soccer-matches-internship
+   ```
 
-Open your browser:
+2. **Install backend dependencies:**
+   ```bash
+   cd backend
+   npm install
+   ```
 
-Frontend: http://localhost:3000
-Backend API: http://localhost:3001
+3. **Install frontend dependencies:**
+   ```bash
+   cd ../frontend
+   npm install
+   ```
 
+4. **Start the backend server:**
+   ```bash
+   cd ../backend
+   npm start
+   ```
 
+5. **Start the frontend (in new terminal):**
+   ```bash
+   cd frontend
+   npm start
+   ```
 
-🧪 Testing
+6. **Open your browser:**
+   - Frontend: http://localhost:3000
+   - Backend API: http://localhost:3001
 
-Manual Testing: Verified on Chrome, Firefox, Safari
-Responsive Testing: Tested on mobile, tablet, and desktop
-API Testing: Handled network errors and API rate limits
-Cross-browser Compatibility: Ensured consistent performance
+## 🧪 Testing
 
-🚀 Future Enhancements
+- **Manual Testing:** Verified on Chrome, Firefox, Safari
+- **Responsive Testing:** Tested on mobile, tablet, and desktop
+- **API Testing:** Handled network errors and API rate limits
+- **Cross-browser Compatibility:** Ensured consistent performance
 
- Add live score updates
- Include more leagues (La Liga, Bundesliga)
- Add match statistics and player information
- Implement user favorites and notifications
- Deploy to production (Vercel/Netlify)
+## 🚀 Future Enhancements
 
-👨‍💻 Development Process
-Time Taken: Approximately 120 minutes
-Approach: API-first development with React frontend
-Challenges: Handling API rate limits and responsive design
-Solutions: Implemented fallback data and mobile-first CSS
-📞 Contact
-Developer: Navya Sree
-Email: madalannavyasree@gmail.com
-GitHub: @navyasree64
+- [ ] Add live score updates
+- [ ] Include more leagues (La Liga, Bundesliga)
+- [ ] Add match statistics and player information
+- [ ] Implement user favorites and notifications
+- [ ] Deploy to production (Vercel/Netlify)
 
-Developed for internship application - Demonstrating full-stack web development skills with modern technologies.
+## 👨‍💻 Development Process
+
+**Time Taken:** Approximately 45 minutes  
+**Approach:** API-first development with React frontend  
+**Challenges:** Handling API rate limits and responsive design  
+**Solutions:** Implemented fallback data and mobile-first CSS  
+
+## 📞 Contact
+
+**Developer:** Navya Sree  
+**Email:** madalannavyasree@gmail.com  
+**GitHub:** [@navyasree64](https://github.com/navyasree64)  
+
+---
+
+*Developed for internship application - Demonstrating full-stack web development skills with modern technologies.*
