@@ -1,6 +1,6 @@
-# ⚽ Soccer Matches Web App
+# ⚽ Soccer Matches Web Page
 
-A modern web application displaying upcoming Premier League matches with real-time data from Football-Data.org API.
+A modern web Page displaying upcoming Premier League matches with real-time data from Football-Data.org API.
 
 ## 🚀 Features
 - Real-time Premier League match data
@@ -118,7 +118,6 @@ soccer-matches-internship/
 ## 🧪 Testing
 
 - **Manual Testing:** Verified on Chrome, Firefox, Safari
-- **Responsive Testing:** Tested on mobile, tablet, and desktop
 - **API Testing:** Handled network errors and API rate limits
 - **Cross-browser Compatibility:** Ensured consistent performance
 
